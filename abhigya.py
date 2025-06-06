@@ -2,7 +2,8 @@ import streamlit as st
 import base64
 import time
 from datetime import datetime
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_community.chat_models import ChatGoogleGenerativeAI
+
 from langchain.schema import HumanMessage
 from prompt_utils import build_prompt
 from memory_retriever import retrieve_memories
