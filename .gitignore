@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+chat_env/
+
+# Streamlit cache
+.streamlit/config.toml
+.streamlit/*.json
+
+# OS files
+.DS_Store
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Data and models (optional)
+*.csv
+*.h5
+*.pkl
+*.pt
+*.joblib
+
+# VSCode
+.vscode/
